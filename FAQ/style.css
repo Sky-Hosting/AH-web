@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.faq-heading{
+    border-bottom: white;
+    padding: 20px 60px;
+}
+
+.faq-container{
+display: ;
+justify-content: ;
+    width: ;
+  background-color: ;
+flex-direction: ;
+}
+
+body {
+  background-color: #7289da;
+}
+
+.hr-line{
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #any u like -Huz; */
+    color: white;
+    cursor: pointer;
+    padding: 30px 30px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+    font-size: 20px;
+  position: center;
+  
+}
+
+
+
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%;
+   padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) -Huz*/
+.active,
+.faq-page:hover {
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+  color: white;
+    /* Unicode character for "minus" sign (-) */
+}
